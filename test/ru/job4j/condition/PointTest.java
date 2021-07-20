@@ -17,10 +17,11 @@ public class PointTest {
         /* ожидаемый результат*/
         double expected = 2;
         /* возвращаемый результат*/
-        double out= Point.distance(x1, y1, x2, y2);
+        double out = Point.distance(x1, y1, x2, y2);
         Assert.assertEquals(expected, out, 0.01);
 
     }
+
     @Test
     public void when22To10Then1() {
         /* входные данные*/
@@ -31,10 +32,11 @@ public class PointTest {
         /* ожидаемый результат*/
         double expected = 1;
         /* возвращаемый результат*/
-        double out= Point.distance(x1, y1, x2, y2);
+        double out = Point.distance(x1, y1, x2, y2);
         Assert.assertEquals(expected, out, 0.01);
 
     }
+
     @Test
     public void when13To15Then447() {
         /* входные данные*/
@@ -45,10 +47,11 @@ public class PointTest {
         /* ожидаемый результат*/
         double expected = 4.47;
         /* возвращаемый результат*/
-        double out= Point.distance(x1, y1, x2, y2);
+        double out = Point.distance(x1, y1, x2, y2);
         Assert.assertEquals(expected, out, 0.01);
 
     }
+
     @Test
     public void when52To03Then424() {
         /* входные данные*/
@@ -59,7 +62,7 @@ public class PointTest {
         /* ожидаемый результат*/
         double expected = 4.24;
         /* возвращаемый результат*/
-        double out= Point.distance(x1, y1, x2, y2);
+        double out = Point.distance(x1, y1, x2, y2);
         Assert.assertEquals(expected, out, 0.01);
 
     }
