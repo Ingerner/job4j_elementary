@@ -1,5 +1,4 @@
 package ru.job4j.calculator;
-
 import ru.job4j.math.*;
 
 import static ru.job4j.math.MathFunction.*;
@@ -12,14 +11,11 @@ public class MathCalculator {
     }
 
     public static double sumTooOperetions(double first, double second) {
-
        return difference(first, second)
                + division(first, second);
-
     }
 
     public static double sumFourOperetions(double first, double second) {
-
         return sum(first, second)
                 + multiply(first, second)
                 + difference(first, second)
