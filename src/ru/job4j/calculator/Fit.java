@@ -6,7 +6,8 @@ public class Fit {
     }
 
     public static double womanWeight(short height) {
-       return (height - 110) * 1.15;
+
+        return (height - 110) * 1.15;
     }
 
     public static void main(String[] args) {
