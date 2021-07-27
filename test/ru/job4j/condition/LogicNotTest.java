@@ -42,17 +42,17 @@ public class LogicNotTest {
     }
 
     @Test
-    public void whenMinus2ThenFalse() {
+    public void whenMinus2ThenTrue() {
         int in = -3;
-        boolean expected = false;
+        boolean expected = true;
         boolean resultat = notEvenAndPositive(in);
         Assert.assertEquals(expected, resultat);
     }
 
     @Test
-    public void  when4ThenTrue() {
+    public void  when4ThenFalse() {
         int in = 4;
-        boolean expected = true;
+        boolean expected = false;
         boolean resultat = evenORNotPossitive(in);
         Assert.assertEquals(expected, resultat);
 
