@@ -10,7 +10,7 @@ public class MultipleSwitchWeekTest {
     @Test
     public void numberOfDay1() {
         String  in = "Monday";
-        int expected = 1;
+        String expected = "Monday";
         int result = MultipleSwitchWeek.numberOfDay(in);
         Assert.assertEquals(expected, result);
 
