@@ -10,6 +10,7 @@ public class CheckPrimeNumber {
                 break;
             }
         }
+
         return prime;
     }
 }
