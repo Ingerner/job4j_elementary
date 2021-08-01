@@ -14,7 +14,8 @@ public class PrimeNumberTest {
         int expected = 3;
         Assert.assertEquals(expected, result);
     }
-        @Test
+
+    @Test
     public void when11() {
         int finish = 11;
         int result = PrimeNumber.calc(finish);
