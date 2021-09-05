@@ -38,7 +38,7 @@ public class MaxTest {
     public void testMax() {
         int first = 1;
         int second = 1;
-        int third = 2;
+        int third =  2;
         int result = Max.max(first, Max.max(second, third));
         int expected = 2;
         Assert.assertEquals(expected, result);
