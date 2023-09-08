@@ -1,9 +1,9 @@
 package ru.job4j.loop;
 
 public class Slash {
-    public static  void  draw(int size) { //размер поля
-        for (int row = 0; row < size; row++) {  //ряд
-            for (int cell = 0; cell < size; cell++) { //ячейка
+    public static  void  draw(int size) {
+        for (int row = 0; row < size; row++) {
+            for (int cell = 0; cell < size; cell++) {
                 boolean left = row == cell;
                 boolean right = size - row == cell + 1;
                 if (left) {
